@@ -1,0 +1,31 @@
+<div class="form-container">
+    <form >
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">ТП</label>
+            <input type="text" class="form-control" (change)="onFormInput('TP', $event)"  >
+        </div>
+    
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Деградация</label>
+            <input type="text" class="form-control" (change)="onFormInput('Degradation', $event)"  >
+        </div>
+    
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Описание, причина</label>
+            <input type="text" class="form-control" (change)="onFormInput('Description', $event)"  >
+        </div>
+    
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Мероприятия</label>
+            <input type="text" class="form-control" (change)="onFormInput('Actions', $event)"  >
+        </div>
+    
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Дата реализации</label>
+            <input type="text" class="form-control" (change)="onFormInput('Date', $event)"  >
+        </div>
+    
+        
+        <button  class="btn btn-primary" (click)="send()">Отправить</button>
+    </form>
+</div>

@@ -1,0 +1,23 @@
+
+
+.test{
+    color: red;
+}
+
+.btns-container{
+    display: flex;
+
+}
+
+
+.btns-inner-container{
+    margin-top: 40px;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
